@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.container {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-color: #e0e8ff;
+  background-repeat: no-repeat;
+  width: 100vw;
+  background-size: contain;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  font-family: "Red Hat Display", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.card {
+  background-color: #fff;
+  width: 380px !important;
+  border-radius: 40px; }
+  .card__img {
+    background-image: url("../images/illustration-hero.svg");
+    background-clip: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 220px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); }
+  .card__body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 80px 1fr 1fr;
+    padding: 20px 40px;
+    text-align: center; }
+  .card__head {
+    font-weight: 900; }
+  .card__details {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 20px 0px;
+    color: #7280a7; }
+  .card__plan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .card__plan-details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f5f7ff;
+      border-radius: 20px; }
+    .card__plan-name {
+      margin: 0px 40px; }
+      .card__plan-name h2 {
+        color: #e0e8ff; }
+    .card__plan-price {
+      font-size: 14px;
+      color: #1f2e56; }
+    .card__plan-change {
+      padding-right: 20px; }
+      .card__plan-change a {
+        text-decoration: underline;
+        color: #1f2f56;
+        font-weight: 700;
+        font-size: 14px; }
+  .card_btn {
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+    .card_btn-proced, .card_btn-cancel {
+      margin-bottom: 10px;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 10px;
+      font-weight: 700;
+      cursor: pointer;
+      background: none; }
+    .card_btn-proced {
+      background-color: #3829e0;
+      color: #fff; }
+      .card_btn-proced:hover {
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+        background-color: #706c9d; }
