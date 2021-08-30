@@ -1,0 +1,18 @@
+{
+  "name": "order-summary-component-main",
+  "version": "1.0.0",
+  "description": "This is a coding challenge accepted by Naseeb",
+  "main": "index.js",
+  "scripts": {
+    "build-css":"node-sass assets/scss/style.scss assets/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/naseebahammed/"
+  },
+  "author": "Naseeb Ahammed",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
