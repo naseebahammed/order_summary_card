@@ -88,3 +88,19 @@
       .card_btn-proced:hover {
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
         background-color: #706c9d; }
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    background-image: url("../images/pattern-background-mobile.svg"); }
+  .card {
+    width: 360px !important; }
+    .card__img {
+      height: 220px !important; }
+    .card__body {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 40px 80px 1fr 1fr;
+      padding: 20px 20px !important;
+      text-align: center; }
+  .attribution {
+    bottom: 6px !important; } }
